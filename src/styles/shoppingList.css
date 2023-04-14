@@ -1,0 +1,48 @@
+.shoppinglist-container{
+	margin-left: 5%;
+}
+.lmj-plant-list {
+	list-style-type: none;
+	padding: 32px;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1050px;
+}
+
+.lmj-plant-item {
+	border-radius: 10px;
+	height: 150px;
+	width: 150px;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	padding: 15px;
+}
+
+.lmj-sales {
+	position: absolute;
+	right: 0px;
+	top: 10px;
+	font-weight: 500;
+	color: white;
+	padding: 5px 10px;
+	background-color: #31b572;
+}
+
+.category-title {
+	font-size: 1.3rem;
+}
+
+.category-list{
+	text-align: center;
+}
+.category-list-element{
+	margin-left: 15%;
+	font-size: 1.1rem;
+}
+.cart-add-btn{
+	margin-left: 20%;
+}

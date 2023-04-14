@@ -1,0 +1,36 @@
+.cart-container{
+    text-align: center;
+}
+li{
+    list-style-type: none;
+    margin-right: 15%;
+}
+.cart-title{
+    text-decoration: underline;
+}
+.cart-open-btn{
+    margin-left: 24%;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 35%;
+    background-color: rgb(46, 205, 10);
+}
+.cart-close-btn{
+    margin-top: 40%;
+    margin-left: 45%;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(46, 205, 10);
+}
+.cart-close-title{
+    text-align: center;
+    margin-top: 30%;
+}
+.empty-cart-title{
+    text-align: center;
+    margin-top: 30%;
+}

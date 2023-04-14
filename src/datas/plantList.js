@@ -1,0 +1,55 @@
+import monstera from '../assets/images/monstera.jpg'
+const plantList = [
+    {
+        name : 'Tomate',
+        type : 'Legume',
+        id : 1 ,
+        isSpecialOffer : true,
+        water : 3,
+        light : 3,
+        cover : monstera,
+        price : 15,
+    },
+    {
+        name : 'Laitue',
+        type : 'Legume',
+        id : 2,
+        isSpecialOffer : true,
+        water : 1,
+        light : 2,
+        cover : monstera,
+        price : 3,
+    },
+    {
+        name : 'Radis',
+        type : 'Legume',
+        id : 3,
+        isSpecialOffer : false,
+        water : 1,
+        light : 1,
+        cover : monstera,
+        price : 12,
+    },
+    {
+        name : 'Fraise',
+        type : 'Fruit',
+        id : 4,
+        isSpecialOffer : false,
+        water : 2,
+        light : 3,
+        cover : monstera,
+        price : 20,
+
+    },
+    {
+        name : 'Poire',
+        type : 'Fruit',
+        id : 5,
+        isSpecialOffer : false,
+        water : 1,
+        light : 3,
+        cover : monstera,
+        price : 25,
+    },
+]
+export default plantList

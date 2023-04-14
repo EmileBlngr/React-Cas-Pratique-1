@@ -1,0 +1,11 @@
+
+.body-container{
+    display : flex;
+}
+.cart-left-container{
+    background-color: rgb(46, 205, 10);
+    flex:1
+}
+.sales-right-container{
+    flex: 4;
+}
